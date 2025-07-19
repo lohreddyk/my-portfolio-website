@@ -153,9 +153,9 @@ section.visible {
 .about-text {
   text-align: center;
   padding: 0 1rem;
-  max-width: 600px; /* Increased max-width to allow 2 lines */
+  max-width: 700px; /* Increased further to allow 2 lines */
   margin: 0 auto;
-  font-size: 0.65rem; /* Reduced font size for 2 lines */
+  font-size: 0.6rem; /* Reduced font size further for 2 lines */
 }
 
 /* Skills */
@@ -278,4 +278,12 @@ footer {
   font-size: 0.7rem;
   color: var(--light-text);
   margin-top: 2rem;
+}
+
+/* Specific adjustment for Socials section subtext */
+#socials .section-subtext {
+  text-align: center; /* Ensure centered alignment */
+  max-width: 600px; /* Optional: Add max-width to control wrapping */
+  margin-left: auto;
+  margin-right: auto;
 }
