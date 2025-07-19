@@ -2,7 +2,7 @@
 
 :root {
   --primary: #f1c40f;
-  --background: #111; /* Unified background color */
+  --background: #111;
   --text: #fff;
   --light-text: #ccc;
   --card-bg: #1a1a1a;
@@ -22,11 +22,11 @@ body {
 /* Global section styling with scroll animation */
 section {
   padding: 4rem 1rem;
-  margin: 8rem 0; /* Increased gap between sections */
+  margin: 8rem 0;
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.6s ease, transform 0.6s ease;
-  background: var(--background); /* Unified with body background */
+  background: var(--background);
   border-radius: 10px;
 }
 
@@ -40,7 +40,7 @@ section.visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #2c3e50; /* New header color */
+  background: #2c3e50;
   padding: 0.8rem 2rem;
   position: sticky;
   top: 0;
@@ -153,9 +153,9 @@ section.visible {
 .about-text {
   text-align: center;
   padding: 0 1rem;
-  max-width: 500px;
+  max-width: 600px; /* Increased max-width to allow 2 lines */
   margin: 0 auto;
-  font-size: 0.8rem;
+  font-size: 0.65rem; /* Reduced font size for 2 lines */
 }
 
 /* Skills */
